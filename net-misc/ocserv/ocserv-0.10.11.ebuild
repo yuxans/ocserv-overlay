@@ -30,7 +30,7 @@ src_install() {
 	default
 	find "${ED}/usr" -name '*.la' -delete
 	# install documentation
-	dodoc {AUTHORS,ChangeLog,COPYING,LICENSE,NEWS,README,TODO}
+	dodoc {AUTHORS,ChangeLog,COPYING,LICENSE,NEWS,README.md,TODO}
 
 	# Install some helper scripts
 	keepdir /etc/ocserv /etc/ocserv/private /etc/ocserv/certs
